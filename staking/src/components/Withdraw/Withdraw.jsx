@@ -2,7 +2,7 @@ import { useContext,useRef } from "react";
 import {ethers} from "ethers"
 import Web3Context from "../../context/Web3context";
 import StakingContext from "../../context/StakingContext";
-import Button from "../Button";
+import Button from "../Wallet/Button";
 import { toast } from "react-hot-toast";
 import "./Withdraw.css"
 

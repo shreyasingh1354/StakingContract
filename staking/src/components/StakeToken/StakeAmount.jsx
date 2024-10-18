@@ -1,7 +1,7 @@
 import { useContext,useRef } from "react";
 import {ethers} from "ethers"
 import Web3Context from "../../context/Web3context";
-import Button from "../Button";
+import Button from "../Wallet/Button";
 import StakingContext from "../../context/StakingContext";
 import { toast } from "react-hot-toast";
 import "./StateToken.css";

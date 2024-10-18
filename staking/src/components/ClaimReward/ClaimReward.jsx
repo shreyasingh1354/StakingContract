@@ -1,11 +1,11 @@
 import { useContext} from "react";
 import Web3Context from "../../context/Web3context";
-import Button from "../Button/Button";
+import Button from "../Wallet/Button";
 import { toast } from "react-hot-toast";
 import "./ClaimReward.css"
 
 const ClaimReward = ()=>{
- const {stakingContract}=useContext(web3Context);
+ const {stakingContract}=useContext(Web3Context);
  const claimReward = async()=>{
   try{
     const transaction = await stakingContract.getReward();

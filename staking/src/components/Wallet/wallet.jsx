@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import {connectWallet} from "../../utils/conWallet"
 import Web3Context from "../../context/Web3context";
-import Button from "../Button";
+import Button from "./Button";
 import { handleAccountChange } from "../../utils/handleAccountChange";
 import { handleChainChange } from "../../utils/handleChainChange";
 import { toast } from "react-hot-toast";
